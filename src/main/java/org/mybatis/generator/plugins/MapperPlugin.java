@@ -30,8 +30,6 @@ public class MapperPlugin extends PluginAdapter {
     private FullyQualifiedJavaType MLIST;
     private FullyQualifiedJavaType ID;
 
-
-    @Override
     public boolean validate(List<String> warnings) {
         interfaceName = this.properties.getProperty("interfaceName");
         String deleteMethod = this.properties.getProperty("deleteMethod");

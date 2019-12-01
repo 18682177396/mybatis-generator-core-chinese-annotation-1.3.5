@@ -103,7 +103,6 @@ public class JDBCConnectionFactory implements ConnectionFactory {
         return driver;
     }
 
-    @Override
     public void addConfigurationProperties(Properties properties) {
         // this should only be called when this connection factory is
         // specified in a ConnectionFactory configuration

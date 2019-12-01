@@ -186,7 +186,6 @@ public class DefaultCommentGenerator implements CommentGenerator {
      *
      * @param javaElement
      */
-    @Override
     public void addExampleClassComment(JavaElement javaElement) {
         // * @author Acooly Code Generator
         // * Date: 2016-04-05 20:12:59
@@ -203,7 +202,6 @@ public class DefaultCommentGenerator implements CommentGenerator {
     /* (non-Javadoc)
      * @see org.mybatis.generator.api.CommentGenerator#addTopLevelClassComment(org.mybatis.generator.api.dom.java.TopLevelClass, org.mybatis.generator.api.IntrospectedTable)
      */
-    @Override
     public void addModelClassComment(TopLevelClass topLevelClass,
                                      IntrospectedTable introspectedTable) {
         // 添加类注释
